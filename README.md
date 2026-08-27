@@ -58,12 +58,6 @@ El runtime de Node.js es el entorno que permite usar JavaScript fuera del navega
 
 ### 2. ¿Por qué el callback de `setTimeout(..., 0)` se ejecuta después del código principal?
 
-Aunque `setTimeout` tenga un tiempo de `0` milisegundos, su callback no se ejecuta inmediatamente. Primero debe terminar el código principal que se está ejecutando.
-
-Después, el event loop puede tomar la tarea programada y ejecutar su callback. Por eso primero termina el código principal y luego se muestra el mensaje del `setTimeout`.
-
-### 2. ¿Por qué el callback de `setTimeout(..., 0)` se ejecuta después del código principal?
-
 Aunque pongamos `0` en `setTimeout`, el callback no se ejecuta inmediatamente. Primero debe terminar el código principal y después se ejecuta la tarea programada.
 
 Por eso primero aparece el mensaje del comienzo, después el del final del código principal y por último el mensaje del `setTimeout`.
