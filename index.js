@@ -11,7 +11,7 @@ console.log("Plataforma:", process.platform);
 const videojuego = {
   titulo: "El Último Guardián",
   estudio: "Luna Roja Studios",
-  año: 2025,
+  anio: 2025,
   plataformas: ["PlayStation 5", "Xbox Series X", "PC"],
   multijugador: true
 };

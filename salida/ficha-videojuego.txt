@@ -1,10 +1,10 @@
 FICHA DE VIDEOJUEGO
 ===================
-Estudiante: Luciana
+Estudiante: Nombre del estudiante
 Node.js: v24.11.1
 Plataforma del sistema: win32
 Titulo: El Último Guardián
 Estudio: Luna Roja Studios
-Año: undefined
+Año: 2025
 Plataformas: PlayStation 5, Xbox Series X, PC
 Es multijugador: Si
